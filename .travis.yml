@@ -29,9 +29,8 @@ matrix:
       os: osx
       osx_image: xcode9.4
       env:
-        - DEPLOY_NAME="osx-python"
+        - DEPLOY_NAME="osx-python-matlab"
         - WITH_MATLAB="YES"
-        - COVERAGE="lcov"
     - name: Linux Python Interface Gcc6
       env:
         - DEPLOY_NAME="linux-python-gcc6"
